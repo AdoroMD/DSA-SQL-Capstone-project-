@@ -21,3 +21,12 @@
 ### right click on the created database 
 --> Task --> Import Flat file --> next --> select data source-->  browse file location --> open --> next -->set data type --> finish and close 
 
+### To determine which product category has the highest sales.
+#### first let's ensure the category column and the sales column does not have a missing values 
+
+- select category from KMS,
+- where category is null
+### we do same for the sales column
+- select sales from KMS,
+- where sales is null
+
