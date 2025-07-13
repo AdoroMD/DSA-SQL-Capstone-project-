@@ -14,3 +14,10 @@
   
 - Q5. KMS incurred the most shipping cost using which shipping methods 
 
+## To create a data base for this project, 
+### Go to new query-> create database DSA_SQL_Capstone_Project 
+### execute to create the database.
+
+### right click on the created database 
+--> Task --> Import Flat file --> next --> select data source-->  browse file location --> open --> next -->set data type --> finish and close 
+
