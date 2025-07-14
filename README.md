@@ -24,9 +24,19 @@
 ### To determine which product category has the highest sales.
 #### first let's ensure the category column and the sales column does not have a missing values 
 
-- select category from KMS,
-- where category is null
+- select product_category from KMS,
+- where product_category is null
+  
 ### we do same for the sales column
 - select sales from KMS,
 - where sales is null
 
+### From the output, both products_category and sales do not have missing values.
+
+- Q1. Which product_category had the highest sales?
+  
+ - select productcategory,  sum(sales) as total_sales from KMS group by product_category order by product_category DESC
+
+### The Technology product_category had the highest number of sales with total_sales of 5.9 million 
+
+- Q2. 
