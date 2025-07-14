@@ -39,4 +39,8 @@
 
 ### The Technology product_category had the highest number of sales with total_sales of 5.9 million 
 
-- Q2. 
+- Q2. What are the top 3 and bottom 3 regions in terms of sales?
+
+  -  
+- 
+  - 
