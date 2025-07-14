@@ -39,8 +39,19 @@
 
 ### The Technology product_category had the highest number of sales with total_sales of 5.9 million 
 
-- Q2. What are the top 3 and bottom 3 regions in terms of sales?
+Q2. What are the top 3 and bottom 3 regions in terms of sales?
 
-  -  
-- 
-  - 
+Q2a. what are the top 3 regions in terms of sales?
+
+select regions, sum(sales) as total_sales from KMS group by region
+order by total_sales  DESC
+
+executing the codes above we have,
+- The west region being the highest, then Ontario and Prarie, these are the top 3 regions in terms of sales.
+
+Q2b. The bottom 3 regions in terms of sales?
+select regions, sum(sales) as total_sales from KMS group by region
+order by total_sales  ASC
+
+output: the Bottom 3 regions interms of sales are Nunavut which had the least sales, then northwest Territories and Yukon respectively.
+
