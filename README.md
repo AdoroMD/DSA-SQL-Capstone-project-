@@ -58,3 +58,19 @@ order by total_sales  ASC
 
  - select region, product_sub_category, sum(sales) as total_sales_of_appliances from KMS, where products_sub_category='appliances' and region='Ontario', group by region, product_sub_category
  - executing this, we have the total sales of appliances in Ontario = 202,346.6
+
+### Q4. Advising the KMS management on what to do, in order to increase revenue.
+
+ - select customer_Name, Product_category, region, ship_mode, Sum(sales) as total_sales from KMS group by Customer_Name, Product_category, region, Ship_Mode order by total_sales ASC
+- Executing the above query, gives us an overview of the 10 bottom customer to identify trends in the kind of products they purchase and the shipping methods used.
+-#### Base on the data, the bottom 10 customers purchases products mostly within the office supplies category, and few furniture and all ship mode used were, the Regular Air ship mode, which is relatively high in cost.
+
+ - I will Advice that the sales team should enhance customer relationships with these customers, and come up with market strategies to upscale sales.
+   
+ - The bottom 10 customers didn't purchase products in the technology category which is a high revenue generating products, this could probably be due to lack of awareness about the use and benefits of the product. sale team can introduce and encourage the 10 bottom customers on the use and benefits of technology products
+   
+ - suggest and encourage the use of other ship_mode with less cost to the customers, to cut down cost on KMS.
+   
+ - Introduce value added services and incentives to encourage the customers to make more purchases
+
+ - Conduct a customer feedback survey to get customers views on their satisfaction with KMS products and services, And possible areas of improvement to better meet customers needs.
