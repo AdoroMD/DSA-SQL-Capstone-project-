@@ -74,3 +74,9 @@ order by total_sales  ASC
  - Introduce value added services and incentives to encourage the customers to make more purchases
 
  - Conduct a customer feedback survey to get customers views on their satisfaction with KMS products and services, And possible areas of improvement to better meet customers needs.
+
+### Q5. KMS incurred the most shipping cost using which shipping method?
+
+ - The KMS incurred the most shipping cost using the Delivery Truck which cost 51,971.9.
+
+### For SQL Queries used 
