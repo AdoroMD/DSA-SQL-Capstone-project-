@@ -79,4 +79,5 @@ order by total_sales  ASC
 
  - The KMS incurred the most shipping cost using the Delivery Truck which cost 51,971.9.
 
-### For SQL Queries used 
+### For SQL Queries used [click here](https://docs.google.com/document/d/1Jf_n9xeL3N0pjz5xWDDbzDjFuP3hpdLY/edit?usp=drivesdk&ouid=106287249642968225191&rtpof=true&sd=true)
+
