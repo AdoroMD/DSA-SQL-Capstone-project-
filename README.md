@@ -37,7 +37,7 @@ execute to create the database.
 
 ### Q1. Which product_category had the highest sales?
   
-- select product_category,  sum(sales) as total_sales from KMS group by product_category order by product_category DESC
+- select product_category,  sum(sales) as total_sales from KMS group by product_category order by total_sales DESC
 - The Technology product_category had the highest number of sales with total_sales of 5.9 million 
 
 ### Q2. What are the top 3 and bottom 3 regions in terms of sales?
