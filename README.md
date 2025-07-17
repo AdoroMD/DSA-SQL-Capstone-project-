@@ -63,7 +63,7 @@ order by total_sales  ASC
 
  - select customer_Name, Product_category, region, ship_mode, Sum(sales) as total_sales from KMS group by Customer_Name, Product_category, region, Ship_Mode order by total_sales ASC
 - Executing the above query, gives us an overview of the 10 bottom customer to identify trends in the kind of products they purchase and the shipping methods used.
--#### Base on the data, the bottom 10 customers purchases products mostly within the office supplies category, and few furniture and all ship mode used were, the Regular Air ship mode, which is relatively high in cost.
+- Base on the data, the bottom 10 customers purchases products mostly within the office supplies category, and few furniture and all ship mode used were, the Regular Air ship mode, which is of high in cost.
 
  - I will Advice that the sales team should enhance customer relationships with these customers, and come up with market strategies to upscale sales.
    
@@ -97,7 +97,10 @@ order by total_sales  ASC
  - Emily Phan is the most profitable consumer customer with highest sales and highest profits 
 
 ### Q10. Which customer returned item
-
+ - Dan Campbell,  Greg Tran, Maribeth Yedwab and Tracy Hopkin return 12 items each.
+ - And they belong to customer segments, corporate, home office, home office and small business respectively.
+ - items returned is in the category of Furniture and technology
+   
 ### Q11. does KMS spend shipping cost base on order priority?
  - Yes KMS spend shipping cost base on order priority. Despite the high cost of shipping via Delivery Truck, it is still the highest ship mode with the highest Quantity of items probably customers prefer it due to its economical value and KMS respected customers choice of ship mode.
  - KMS will prefer ship mode with less shipping cost to cut down cost, which is d Express Air, how ever Delivery had most order preference by customers 
