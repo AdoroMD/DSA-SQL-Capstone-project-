@@ -84,20 +84,22 @@ order by total_sales  ASC
 
 ### case scenario 2
 ### Q6. who are the most valuable customers 
-#### - Emily Phan is the top most valuable customer with the highest sale and the highest profits of 27220.69. products usually purchase are technology category, other valuable customers includes Deborah Brumfield and others
+ - Emily Phan is the top most valuable customer with the highest sale and the highest profits of 27220.69. products usually purchase are technology category, other valuable customers includes Deborah Brumfield and others
 
 ### Q7. which small customer had the highest sales.
-####-  Dennis Kane had the highest sales among small business customers 
+ - Dennis Kane had the highest sales among small business customers 
 
 ### Q8. which corporate customers had the highest order between 2009-2012
-####- Justin Knight and Laurel Eliston both with highest number of 6 orders each
+ - Justin Knight and Laurel Eliston both with highest number of 6 orders each
 
 ### Q9. which consumer customer was the most profitable one?
+
+ - Emily Phan is the most profitable consumer customer with highest sales and highest profits 
 
 ### Q10. Which customer returned item
 
 ### Q11. does KMS spend shipping cost base on order priority?
-####- yes KMS spend shipping cost base on order priority. Despite the high cost of shipping via Delivery Truck, it is still the highest ship mode with the highest Quantity of items probably customers prefer it due to its economical value and KMS respected customers choice of ship mode.
-####- KMS will prefer ship mode with less shipping cost to cut down cost, which is d Express Air, how ever Delivery had most order preference by customers 
+ - Yes KMS spend shipping cost base on order priority. Despite the high cost of shipping via Delivery Truck, it is still the highest ship mode with the highest Quantity of items probably customers prefer it due to its economical value and KMS respected customers choice of ship mode.
+ - KMS will prefer ship mode with less shipping cost to cut down cost, which is d Express Air, how ever Delivery had most order preference by customers 
 
 [click here]() for SQL queries 
