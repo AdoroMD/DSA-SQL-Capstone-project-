@@ -105,4 +105,4 @@ order by total_sales  ASC
  - Yes KMS spend shipping cost base on order priority. Despite the high cost of shipping via Delivery Truck, it is still the highest ship mode with the highest Quantity of items probably customers prefer it due to its economical value and KMS respected customers choice of ship mode.
  - KMS will prefer ship mode with less shipping cost to cut down cost, which is d Express Air, how ever Delivery had most order preference by customers 
 
-[click here]() for SQL queries 
+[click here](https://docs.google.com/document/d/1NETTm1YvQvrklriPw450cD2VqaR9o4bG/edit?usp=drivesdk&ouid=106287249642968225191&rtpof=true&sd=true) for SQL queries used
