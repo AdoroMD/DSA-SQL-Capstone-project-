@@ -81,3 +81,12 @@ order by total_sales  ASC
 
 ### For SQL Queries used [click here](https://docs.google.com/document/d/1Jf_n9xeL3N0pjz5xWDDbzDjFuP3hpdLY/edit?usp=drivesdk&ouid=106287249642968225191&rtpof=true&sd=true)
 
+
+### case scenario 2
+### Q6. who are the most valuable customers 
+#### Emily Phan is the top most valuable customer with the highest sale and the highest profits of 27220.69. products usually purchase are technology category, other valuable customers includes Deborah Brumfield and others
+
+### Q7. which small customer had the highest sales.
+#### Dennis Kane had the highest sales among small business customers 
+
+Q8. 
